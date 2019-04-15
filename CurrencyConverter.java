@@ -30,15 +30,15 @@ class CurrencyConverter
             if(code == 1)
             {
                 System.out.println("Enter amount in Taka");
-                takaInp = sc.nextFloat();
+                taka = sc.nextFloat();
                  
-                rupee = takaInp / 1.22;
+                rupee = taka / 1.22;
                 System.out.println("Dollar : "+f.format(dollar));
 				
-				dollar = takaInp / 84.35;
+				dollar = taka / 84.35;
                 System.out.println("Dollar : "+f.format(dollar));
 				
-				pound = takaInp / 110.41;
+				pound = taka / 110.41;
                 System.out.println("Dollar : "+f.format(dollar));
 				
 				
